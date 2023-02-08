@@ -1,0 +1,12 @@
+//1D1D1D
+
+.layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+
+    &__content {
+        background: radial-gradient(180deg, #1D1D1D 10%, black 60%);
+        width: 100%;
+        min-height: 100vh;
+    }
+}

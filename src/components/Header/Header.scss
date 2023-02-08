@@ -1,0 +1,36 @@
+.header {
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+    &__arrows {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &__prev, &__next {
+            font-size: 20px;
+            opacity: 0.5;
+
+            cursor: pointer;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__block {
+        display: flex;
+        gap: 25px;
+
+        &__signup, &__login {
+            button {
+                padding: 8px;
+                border-radius: 15px;
+                color: black;
+            }
+        }
+    }
+}
