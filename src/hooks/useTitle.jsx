@@ -4,7 +4,5 @@ export const useTitle = () => {
     const rename = useCallback((value) => {
         document.title = value
     }, [])
-    return {
-        rename
-    }
+    return {rename}
 }

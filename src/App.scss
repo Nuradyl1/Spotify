@@ -5,12 +5,17 @@
     font-family: "Circular", sans-serif; 
   } 
    
-  .Agit pp { 
+  .App { 
     background: black; 
    
     min-height: 100vh; 
     width: 100vw; 
+    overflow-x: hidden;
   } 
+
+  body {
+    overflow-x: hidden;
+  }
    
   @font-face { 
     font-family: "Circular"; 

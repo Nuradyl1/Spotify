@@ -1,0 +1,33 @@
+.music_card {
+    width: calc(160px) +30px;
+    height: auto;
+
+    padding: 15px;
+    box-sizing: border-box;
+
+    background: transparent;
+    border-radius: 5px;
+
+    &:hover {
+        box-shadow: 0px 1px 3px white;
+        background-color: tgba(128, 128, 128, 0.521)
+    }
+
+    &__image {
+        width: 100%;
+        height: 180px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    }
+
+    &__text {
+        
+        word-wrap: break-word;
+        
+    }
+}
